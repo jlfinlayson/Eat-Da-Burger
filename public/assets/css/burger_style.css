@@ -1,0 +1,75 @@
+.container{
+    height: 900px;
+}
+
+body {
+    background-color: #F8D914;
+    font-family: 'Dekko', cursive;
+    color: white;
+    height: 900px;
+}
+
+#menu {
+    position: absolute;
+    z-index: -2;
+    height: 400px;
+    width: auto;
+    /* margin-top: -50px; */
+    margin-left: 95px;
+}
+
+h2{
+    font-size: 28px;
+    z-index: 100;
+    position: absolute;
+    margin-left: 147px;
+    margin-top: 70px;
+}
+
+p {
+    font-size: 22px;
+    z-index: 100;
+    text-align: center;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 80px;
+}
+
+#bobsBurgers {
+    height: 40%;
+    margin-top: 40px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .rowtop {
+    height: 275px;
+ }
+
+ .col-6 {
+     position: relative;
+     margin-top: -80px;
+ }
+
+ .change-devoured {
+    z-index: 100;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 90px;
+ }
+
+ .rowtwo {
+     align-content: center;
+     margin-top: 230px;
+ }
+ label {
+     font-size: 22px;
+     color: black;
+ }
+ .col-4 {
+    margin-left: 45px;
+ }

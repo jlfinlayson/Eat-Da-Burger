@@ -1,36 +1,59 @@
-<h1>Burgers!</h1>
-
-<h2>Burgers to eat!</h2>
-
-<ul>
-    {{#each burgers}}
-    {{#unless devoured}}
-    <br>
-    <h3>{{burger_name}}</h3>
-    <button class="change-devoured" data-id="{{id}}" data-devoured="{{devoured}}">DEVOUR</button>
-    <br>
-    {{/unless}}
-    {{/each}}
-</ul>
-
-<h2>Burgers devoured!</h2>
-
-<ul>
-    {{#each burgers}}
-    {{#if devoured}}
-    <br>
-    <h3>{{burger_name}}</h3>
-    <br>
-    {{/if}}
-    {{/each}}
-</ul>
-
-<h2>Add a burger!</h2>
-<form class="add-burger">
-    <div class="form-group">
-        <label for="burgerAdd">What burger would you like?</label>
-        <input type="text" id="burgerAdd" name="name">
+<div class="container">
+    <div class="row rowtop">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <img class="center-block" id="bobsBurgers" src="/assets/img/BobsBurger_Logo.jpg">
+        </div>
+        <div class="col-2"></div>
     </div>
 
-    <button type="submit">Add Burger!</button>
-</form>
+    <div class="row">
+        <div class="col-6">
+            <h2>BURGER OF THE DAY!</h2>
+            <br>
+            <img id="menu" src="/assets/img/chalkboard.png">
+            <ul>
+                {{#each burgers}}
+                {{#unless devoured}}
+                <br>
+                <p>* {{burger_name}}</p>
+                <br>
+                <button class="change-devoured btn btn-outline-light btn-sm" data-id="{{id}}" data-devoured="{{devoured}}">DEVOUR</button>
+                <br>
+                {{/unless}}
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="col-6">
+            <h2>BURGERS DEVOURED!</h2>
+            <br>
+            <img id="menu" src="/assets/img/chalkboard.png">
+            <ul>
+                {{#each burgers}}
+                {{#if devoured}}
+                <br>
+                <p>* {{burger_name}}</p>
+                <br>
+                {{/if}}
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <div class="row rowtwo">
+        <div class="col-1"></div>
+        <div class="col-3"></div>
+        <div class="col-4">
+        <form class="add-burger">
+            <label for="burgerAdd">CREATE YOUR OWN BURGER!    </label>
+            <div class="form-group">
+                <input type="text" id="burgerAdd" name="name">
+                <button class = "btn btn-danger btn-sm" type="submit">Add Burger!</button>
+            </div>
+            </div>
+        </form>
+        <div class="col-1"></div>
+        <div class="col-3"></div>
+    </div>
+</div>
