@@ -1,8 +1,8 @@
 INSERT INTO burgers (burger_name)
-VALUES ("Impossible Burger");
+VALUES ("Beets Me");
 
 INSERT INTO burgers (burger_name)
-VALUES ("Black Bean & Quinoa Burger");
+VALUES ("New Bacon-ings");
 
 INSERT INTO burgers (burger_name)
-VALUES ("Portabello Mushroom Patty");
+VALUES ("If Looks Could Kale");
