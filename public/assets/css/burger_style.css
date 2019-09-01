@@ -47,7 +47,7 @@ p {
  }
 
  .rowtop {
-    height: 275px;
+    height: 200px;
  }
 
  .col-6 {
@@ -64,7 +64,7 @@ p {
 
  .rowtwo {
      align-content: center;
-     margin-top: 230px;
+     margin-top: 50px;
  }
  label {
      font-size: 22px;

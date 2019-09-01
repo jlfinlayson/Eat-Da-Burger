@@ -8,6 +8,22 @@
     </div>
 
     <div class="row">
+        <div class="col-1"></div>
+        <div class="col-3"></div>
+        <div class="col-4">
+        <form class="add-burger">
+            <label for="burgerAdd">CREATE YOUR OWN BURGER!    </label>
+            <div class="form-group">
+                <input type="text" id="burgerAdd" name="name">
+                <button class = "btn btn-danger btn-sm" type="submit">Add Burger!</button>
+            </div>
+            </div>
+        </form>
+        <div class="col-1"></div>
+        <div class="col-3"></div>
+    </div>
+
+    <div class="row rowtwo">
         <div class="col-6">
             <h2>BURGER OF THE DAY!</h2>
             <br>
@@ -39,21 +55,5 @@
                 {{/each}}
             </ul>
         </div>
-    </div>
-
-    <div class="row rowtwo">
-        <div class="col-1"></div>
-        <div class="col-3"></div>
-        <div class="col-4">
-        <form class="add-burger">
-            <label for="burgerAdd">CREATE YOUR OWN BURGER!    </label>
-            <div class="form-group">
-                <input type="text" id="burgerAdd" name="name">
-                <button class = "btn btn-danger btn-sm" type="submit">Add Burger!</button>
-            </div>
-            </div>
-        </form>
-        <div class="col-1"></div>
-        <div class="col-3"></div>
     </div>
 </div>
