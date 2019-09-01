@@ -18,6 +18,5 @@ Eat Da Burger is a Bob's Burger themed app that allows users to create and eat t
  
  ### Demo
  
- (will be live tomorrow)
- * [Heroku Site](link)
+ * [Heroku Site](https://eat-bobs-burgers.herokuapp.com/)
 
